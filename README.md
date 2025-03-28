@@ -1,19 +1,25 @@
 Weather  Application
+
 Overview
+
 I created this Weather Forecast Application to provide real-time weather updates based on city input. It fetches weather data from the OpenWeatherMap API and displays key weather details, including temperature, humidity, wind speed, and weather conditions with dynamic icons. The goal was to make it user-friendly, responsive, and lightweight.
 
+
 Features
+
 🌍 Search by City: Enter a city name to get the latest weather updates.
 ⛅ Real-time Weather Updates: Fetches live data from the OpenWeatherMap API.
 🌦 Dynamic Weather Icons: Displays weather conditions with changing icons.
 📍 Geolocation Support: Detects the user's location for automatic weather updates.
 📱 Responsive Design: Works smoothly on desktop, tablet, and mobile devices.
 ⚡ Fast & Lightweight: Built using HTML, CSS, and JavaScript for efficiency.
+
 Technologies Used
 Frontend: HTML, CSS, JavaScript
 API: OpenWeatherMap API
 Deployment: Web Server 1 & Web Server 2
 Load Balancing: Nginx to efficiently distribute traffic between servers
+
 Deployment Details
 I deployed the application on two web servers (Web Server-01 & Web Server-02) and set up a load balancer (Nginx) to manage incoming requests. This setup ensures:
 
