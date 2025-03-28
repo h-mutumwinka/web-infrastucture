@@ -17,12 +17,12 @@ I created this Weather Forecast Application to provide real-time weather updates
 
 - **Frontend:** HTML, CSS, JavaScript
 - **API:** OpenWeatherMap API
-- **Deployment:** Web Server 1 & Web Server 2
+- **Deployment:** Web Server-01 & Web Server-02
 - **Load Balancing:** Nginx to efficiently distribute traffic between servers
 
 ## Deployment Details
 
-I deployed the application on two web servers (Web Server 1 & Web Server 2) and set up a load balancer (Nginx) to manage incoming requests. This setup ensures:
+I deployed the application on two web servers (Web Server-01 & Web Server-02) and set up a load balancer (Nginx) to manage incoming requests. This setup ensures:
 
 - Even request distribution to prevent overloading a single server
 - High availability and better performance
@@ -39,13 +39,13 @@ I deployed the application on two web servers (Web Server 1 & Web Server 2) and 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/enockmugisha1/Front-end-projects.git
+   git clone https://github.com/h-mutumwinka/web-infrastucture.git
    ```
 2. Navigate to the weather project folder:
    ```sh
-   cd Front-end-projects/whether
+   cd web-infrastucture/app
    ```
-3. Open `whether.html` in a browser to run the application locally.
+3. Open `index.html` in a browser to run the application locally.
 
 ## API Configuration
 
