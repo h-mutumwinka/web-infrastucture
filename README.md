@@ -1,5 +1,5 @@
 # Weather Forecast Application
-
+Youtube video link : https://youtu.be/ehYllWe4Y5w
 ## Overview
 
 I created this Weather Forecast Application to provide real-time weather updates based on city input. It fetches weather data from the OpenWeatherMap API and displays key weather details, including temperature, humidity, wind speed, and weather conditions with dynamic icons. The goal was to make it user-friendly, responsive, and lightweight.
@@ -68,5 +68,10 @@ const config = {
 
 - OpenWeatherMap for providing the weather data
 - Nginx for efficient load balancing
+  
+## Challenges
+-trying to make web servers respond to user was very hard for me .
 
 Enjoy forecasting the weather! 🌤️
+
+
